@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { DataContext } from "../../App";
+import { DataContext } from "../../appQuiz/App_Quiz";
 
 
 const Menu = ()=>{

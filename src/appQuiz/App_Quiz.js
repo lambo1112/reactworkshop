@@ -1,7 +1,7 @@
 import {createContext, useState} from "react";
-import Menu from "./components/QuizApp/Menu"
-import Quiz from "./components/QuizApp/Quiz"
-import Score from "./components/QuizApp/Score"
+import Menu from "../components/QuizApp/Menu"
+import Quiz from "../components/QuizApp/Quiz"
+import Score from "../components/QuizApp/Score"
 import './App_Quiz.css'
 
 export const DataContext = createContext();
