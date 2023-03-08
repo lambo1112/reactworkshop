@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_Accordion from './App_Accordion/App_Accordion';
+import App_CurrencyConverter from './App_CurrencyConverter/App_CurrencyConverter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_Accordion />
+    <App_CurrencyConverter />
   </React.StrictMode>
 );
 
