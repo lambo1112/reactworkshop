@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_CurrencyConverter from './App_CurrencyConverter/App_CurrencyConverter';
+import App_Navigation from './App_Navigation/App_Navigation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_CurrencyConverter />
+    <App_Navigation />
   </React.StrictMode>
 );
 
