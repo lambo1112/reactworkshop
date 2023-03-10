@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_Navigation from './App_Navigation/App_Navigation';
+import App_ImageCarousel from './App_ImageCarousel/App_ImageCarousel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_Navigation />
+    <App_ImageCarousel />
   </React.StrictMode>
 );
 
