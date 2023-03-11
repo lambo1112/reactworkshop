@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_SearchFilter from './App_SearchFilter/App_SearchFilter';
+import App_DynamicDropdown from './App_DynamicDropdown/App_DynamicDropdown';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_SearchFilter />
+    <App_DynamicDropdown />
   </React.StrictMode>
 );
 
