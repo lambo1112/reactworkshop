@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_Calculator from './App_Calculator/App_Calculator';
+import App_SearchFilter from './App_SearchFilter/App_SearchFilter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_Calculator />
+    <App_SearchFilter />
   </React.StrictMode>
 );
 
