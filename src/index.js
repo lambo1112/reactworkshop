@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_Todolist from './App_Todolist/App_Todolist';
+import App_Calculator from './App_Calculator/App_Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_Todolist />
+    <App_Calculator />
   </React.StrictMode>
 );
 
