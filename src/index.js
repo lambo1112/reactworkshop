@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_DynamicDropdown from './App_DynamicDropdown/App_DynamicDropdown';
+import App_InfiniteScroll from './App_InfiniteScroll/App_InfiniteScroll';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_DynamicDropdown />
+    <App_InfiniteScroll />
   </React.StrictMode>
 );
 
