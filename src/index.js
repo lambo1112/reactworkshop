@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_InfiniteScroll from './App_InfiniteScroll/App_InfiniteScroll';
+import App_Pagination from './App_Pagination/App_Pagination';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_InfiniteScroll />
+    <App_Pagination />
   </React.StrictMode>
 );
 
