@@ -53,11 +53,6 @@ const FoodData = [
         menu : "steak",
         foodName :"โทมาฮอว์ค",
         image_url:"https://cdn.pixabay.com/photo/2019/07/16/20/07/steak-4342500_960_720.jpg"
-    },
-    {
-        menu : "drink",
-        foodName : "ลาเต้",
-        image_url:"https://cdn.pixabay.com/photo/2015/10/12/14/54/coffee-983955_960_720.jpg"
     }
 ]
 

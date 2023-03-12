@@ -1,8 +1,9 @@
-const DropdownComponent = ()=>{
+const DropdownComponent = ({changeFoodData})=>{
+    
     return(
         <nav>
             <h2>Dynamic Dropdown</h2>
-            <select className="menu">
+            <select className="menu" onChange={changeFoodData}>
                 <option value="all">เมนูทั้งหมด</option>
                 <option value="fried">ผัด-ทอด</option>
                 <option value="curry">แกง-ต้มยำ</option>
