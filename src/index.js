@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_Pagination from './App_Pagination/App_Pagination';
+import App_Weather from './App_Weather/App_Weather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_Pagination />
+    <App_Weather />
   </React.StrictMode>
 );
 
