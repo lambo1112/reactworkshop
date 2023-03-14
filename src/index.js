@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_Weather from './App_Weather/App_Weather';
+import App_ShoppingCart from './App_ShoppingCart/App_ShoppingCart';
+import { CartProvider } from './management/context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_Weather />
+    <CartProvider>
+      <App_ShoppingCart />
+    </CartProvider>
   </React.StrictMode>
 );
 
