@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import './index.css';
-import './index_ver2.css';
+import './index_ver3.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_Card from './App_Card/App_Card';
-
+import App_Router from './App_Router/App_Router';
+import { BrowserRouter } from 'react-router-dom';
 import { CartProvider } from './management/context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App_Card/>
+    <BrowserRouter>
+      <App_Router/>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
