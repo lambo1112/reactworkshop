@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+//import './index.css';
+import './index_ver2.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import App_ShoppingCart from './App_ShoppingCart/App_ShoppingCart';
+import App_Card from './App_Card/App_Card';
+
 import { CartProvider } from './management/context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CartProvider>
-      <App_ShoppingCart />
-    </CartProvider>
+    <App_Card/>
   </React.StrictMode>
 );
 
