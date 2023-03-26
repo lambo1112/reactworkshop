@@ -1,19 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 //import './index.css';
-import './index_ver3.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import App_Router from './App_Router/App_Router';
-import { BrowserRouter } from 'react-router-dom';
-import { CartProvider } from './management/context';
+import "./index_ver3.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import App_Router from "./App_Router/App_Router";
+import { BrowserRouter } from "react-router-dom";
+import { FavoritesContextProvider } from "./store/favorites-context";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { CartProvider } from "./management/context";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App_Router/>
-    </BrowserRouter>
+    <FavoritesContextProvider>
+      <BrowserRouter>
+        <App_Router />
+      </BrowserRouter>
+    </FavoritesContextProvider>
   </React.StrictMode>
 );
 
